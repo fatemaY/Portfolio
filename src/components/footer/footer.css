@@ -1,0 +1,61 @@
+.nav-footer {
+  background-color: #343a40; /* Dark background color */
+  color: #f8f9fa; /* Light text color */
+  padding: 2rem 1rem; /* Padding around the footer */
+  text-align: center; /* Center align text */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-nav {
+  margin-bottom: 1.5rem; /* Space below the navigation links */
+  
+}
+
+.footer-nav li {
+  color: #f8f9fa; /* Link color */
+  text-decoration: none; /* Remove underline */
+  margin: 0 1rem; /* Space between links */
+  font-size: 1rem; /* Font size for links */
+  transition: color 0.3s ease; /* Smooth color transition */
+  display: inline-block;
+
+}
+a {
+  font-size: 1.1em;
+  color:#fff;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.footer-nav li a:hover {
+  color: #e74c3c; /* Hover color */
+}
+
+.footer-contact p {
+  margin: 0.5rem 0; /* Space between contact details */
+  font-size: 1rem; /* Font size for contact details */
+}
+
+.footer-contact a {
+  color: #e74c3c; /* Accent color for email links */
+  text-decoration: none; /* Remove underline */
+}
+
+.footer-contact a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.footer-social {
+  margin-top: 1.5rem; /* Space above social icons */
+}
+
+.footer-social a {
+  color: #f8f9fa; /* Icon color */
+  margin: 0 0.5rem; /* Space between icons */
+  font-size: 1.5rem; /* Size of social icons */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.footer-social a:hover {
+  color: #e74c3c; /* Hover color for social icons */
+}

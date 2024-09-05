@@ -1,0 +1,56 @@
+  #contact {
+    padding: 2rem; /* Add padding around the section */
+    background-color: #f7f9fc; /* Light background color */
+    border-radius: 8px; /* Rounded corners for the section */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 600px; /* Max width for the section */
+    margin: 0 auto; /* Center the section */
+  }
+  
+  #contact h2 {
+    font-size: 2rem; /* Larger font size for the heading */
+    margin-bottom: 1.5rem; /* Space between heading and content */
+    color: #333; /* Darker text color */
+    text-align: center; /* Center the heading */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Professional font */
+  }
+  
+  .contact-item {
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Align items vertically */
+    margin-bottom: 1rem; /* Space between contact items */
+  }
+  
+  .contact-item i {
+    font-size: 1.5rem; /* Icon size */
+    color: #007BFF; /* Primary color for icons */
+    margin-right: 0.75rem; /* Space between icon and text */
+  }
+  
+  .contact-item p {
+    font-size: 1rem; /* Base font size */
+    color: #555; /* Softer text color */
+    margin: 0; /* Remove margin from paragraphs */
+  }
+  
+  .contact-item a {
+    color: #007BFF; /* Primary color for links */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make links bold */
+  }
+  
+  .contact-item a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  @media (max-width: 480px) {
+    .contact-item {
+      flex-direction: column; /* Stack items on small screens */
+      align-items: flex-start; /* Align items to the start */
+    }
+  
+    .contact-item i {
+      margin-bottom: 0.5rem; /* Space below icon on small screens */
+    }
+  }
+  

@@ -1,0 +1,42 @@
+#skills {
+    padding: 2rem; /* Add padding around the section */
+    background-color: #ffffff; /* Light background color for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 500px;
+    margin: auto;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  #skills h2 {
+    font-size: 2rem; /* Larger font size for the heading */
+    margin-bottom: 1rem; /* Space between the heading and the list */
+    color: #3614f8; /* Darker color for the heading */
+    text-align: center; /* Center the heading */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Professional font */
+  }
+  
+  #skills ul {
+    list-style: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  #skills ul li {
+    padding: 0.5rem 0; /* Space between list items */
+    font-size: 1.1rem; /* Slightly larger font size for readability */
+    color: #555; /* Softer text color */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Professional font */
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Align items vertically in the center */
+    justify-content: center
+  }
+  
+
+  #skills ul li:hover {
+    color: #0c0c0c; /* Change text color on hover */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  

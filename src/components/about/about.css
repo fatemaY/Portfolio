@@ -1,0 +1,32 @@
+/* About Section */
+#about {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  #about p {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .img {
+    width: 200px;        /* Adjust width as needed */
+    height: 200px;       /* Adjust height as needed */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover;   /* Ensures the image covers the area without distortion */
+    display: block;      /* Ensures the image is displayed as a block element */
+    margin: 50px auto;   /* Centers the image horizontally and adds vertical spacing */
+    transition: transform 0.3s ease; /* Smooth transition for zoom effect */
+  }
+  
+  .img:hover {
+    transform: scale(1.5); /* Zooms in the image by 20% */
+  }
+  
