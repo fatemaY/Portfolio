@@ -27,8 +27,8 @@ function Footer() {
   </div>
   <div class="footer-social">
     
-    <a href="https://github.com/fatemaY" target="_blank"><i class="fab fa-github"></i></a>
-    <a href="https://linkedin.com/in/fatema-yasen-460b96213" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/fatemaY" target="_blank" rel="noreferrer"><i class="fab fa-github"></i></a>
+    <a href="https://linkedin.com/in/fatema-yasen-460b96213" target="_blank" rel="noreferrer"><i class="fab fa-linkedin"></i></a>
   </div>
   <div class="footer-bottom">
       <p>&copy; 2024 Your Company. All rights reserved.</p>
